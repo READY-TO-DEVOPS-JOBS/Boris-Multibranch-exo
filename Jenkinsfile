@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('kamdem') {
+        stage('kamdemer') {
             steps {
                 echo 'shut up'
             }
