@@ -1,15 +1,11 @@
 pipeline {
     agent any
-
     stages {
-        stage('borisb') {
+        stage('borisbl') {
             steps {
                 echo 'Hello World'
             }
         }
-    }
-
-    stages {
         stage('kamdem') {
             steps {
                 echo 'shut up'
@@ -17,3 +13,4 @@ pipeline {
         }
     }
 }
+
